@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(./assets/img1.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; 
+    background-color: rgb(235, 243, 247); 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing:border-box;
+}
+
+form{
+    width: 400px;
+    height: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: #fff;
+    border-radius: 0px 15px 15px 0px;
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button{
+    /* float: right; */
+    background: #555;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius:5px;
+    /* margin-right: 10px; */
+    border: none;
+    
+
+
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;  
+    /* height: 50vh; */
+    margin: 1.5rem;
+    /* padding: 5rem; */
+    height: 70vh;
+    /* width: 5000px; */
+    /* border-radius: 10px;  */
+    /* background-color: red; */
+    
+    
+}
+
+.img{
+    border-radius:15px 0px 0px 15px;
+    width: 450px; 
+    height: 100%;
+    object-fit: fill;
+}
+
+
+
+.flex-form{
+    line-height: 12px;
+}
+
+.register-class{
+    padding: 10px;
+}
+
+#reg-container{
+    height: 73vh;
+}
+
+.flex-form-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.log-class{
+    padding-top: 5rem;
+    line-height: 20px;
+}
+
+.log-h{
+    margin-top: 10px;
+}
+
+.link{
+    color: #073dd3d0 ;
+}
+
+.bottom-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.bottom-line-reg{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+    height: 55px;
+    
+}
+

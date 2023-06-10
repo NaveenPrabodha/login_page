@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<?php
+
+
+
+require("./connectdb.php");
+
+
+
+
+?>
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="flex-container" id="reg-container">
+        <div class="flex-img">
+            <img class="img" src="./assets/img2.jpg" alt="flex">
+        </div>
+
+        <div class="flex-form">    
+            <form action="login.php" method="post">
+                    <h2 class="register-class">Register</h2>
+                    <label >User Name</label>
+                    <input type="text" name="" placeholder="User Name"><br>
+
+                    <label >Email</label>
+                    <input type="email" name="" placeholder="Email"><br>
+
+                    <label >Phone</label>
+                    <input type="tel" name="" placeholder="phone"><br>
+                    
+                    <label >password</label>
+                    <input type="password" name="password" placeholder="Password"><br>
+
+                    <div class="bottom-line-reg">
+                        <h5>Already have an account? <a href="log" class="link">Log in</a></h5>
+                        <button class="user-label-button" id="button-id" type="submit">Register</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
